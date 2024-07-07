@@ -53,3 +53,37 @@ body {
   font-size: 80px;
   font-weight: 700;
 }
+
+.profile-container img {
+  border-radius: 50%;
+}
+
+.contacts h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contacts {
+  font-size: 20px;
+}
+
+.title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+  height: 2px;
+  background-color: #f69e84;
+}
+
+.about h4 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 400;
+}
