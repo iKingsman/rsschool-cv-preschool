@@ -142,3 +142,23 @@ body {
   font-size: 20px;
   font-weight: 400;
 }
+
+footer {
+  background: #f69e84;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 300px;
+  
+}
+
+.footer p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
