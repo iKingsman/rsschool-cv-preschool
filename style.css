@@ -109,3 +109,36 @@ body {
   font-size: 20px;
   font-weight: 400;
 }
+
+.projects h4 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.projects ul {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.education h4 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.education ul {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.languages h4 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.languages ul {
+  font-size: 20px;
+  font-weight: 400;
+}
