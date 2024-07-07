@@ -3,7 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon/avatar.ico">
 </head>
-<body></body>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="list-menu">
+                    <li class="list-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#code-example" class="nav-link">Code Example</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#projects" class="nav-link">My Projects</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="profile-container">
+                <img src="assets/img/avatar.jpg" alt="avatar" class="image">
+                <h1>Vladislav Yakubel</h1>            
+            </div>
+            <section class="contacts" id="contacts">
+                <h2 class="title">Contact information:</h2>
+                <p><b>GitHub:</b> <a href="https://github.com/iKingsman" target="_blank">iKingsman</a></p>
+                <p><b>E-mail:</b> vladislavkingsman@gmail.com</p>
+            </section>
+            <section class="about" id="about">
+                <h4 class="title">About Myself:</h4>
+                <p>Hi there, I’m Vladislav. My main goal is become a frontend developer. I am confident in my learning abilities and strive to prove that I can achieve great results in this field. My personality: discipline, punctuality, deceny, ability to analyze and follow through.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h4 class="title">Skills:</h4>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript (Fundamentals)</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code-example">
+                <h4 class="title">Code Example:</h4>
+                <pre>
+                    <code>
+                    let multiply = (a, b) => a * b;
+
+                    console.log(multiply(2, 2));
+                    </code>
+                </pre>
+            </section>
+            <section class="projects" id="projects">
+                <h4 class="title">My Projects:</h4>
+                <ul>
+                    <li><a href="https://ikingsman.github.io/rsschool-cv/cv" target="_blank">CV</a></li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h4 class="title">Education:</h4>
+                <ul>
+                    <li>Institution: Belarusian State University of Informatics and Radioelectronics</li>
+                    <li>Years: 2018 - 2022</li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h4 class="title">Languages:</h4>
+                <ul>
+                    <li>Belarusian: Native</li>
+                    <li>English: A2+</li>
+                    <li>Russian: Native</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="assets/img/rsschool-logo.jpg"
+            alt="rsschool-logo"></a>
+        <a href="https://github.com/iKingsman" target="_blank"><img src="assets/img/github-logo.png" alt="github-logo"></a>
+        <p>© 2024</p>
+    </footer>
+</body>
 </html>
